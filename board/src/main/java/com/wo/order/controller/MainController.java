@@ -13,9 +13,9 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping(value = "/orderMain")
+    @RequestMapping(value = "/store")
     public String memberMain() {
-        return "order/main";
+        return "order/store";
     }
 
 }
